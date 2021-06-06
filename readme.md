@@ -15,6 +15,7 @@ The board is 35x53mm. Featuring:
 - Power and Data Input Headers
 
 We are currently at Revision 2. Changelog is below:
+
 **Revision 2 (May 2021)**
  - Added a header to disable the buffer chip, which would then allow the ICSP header to work.
  - Added a pull-up resistor for Selector Header.
