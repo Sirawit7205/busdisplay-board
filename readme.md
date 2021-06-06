@@ -8,13 +8,21 @@ This is an open-source KiCad design files for a circuit that could be connected 
 
 The board is 35x53mm. Featuring:
 
-- PIC16F57 Microcontroller + ICSP header + 8MHz crystal
+- PIC16F570 Microcontroller + ICSP header
 - 74HCT245 Transceiver as an input buffer
 - 3-digit 7-segment Display
 - Hex/Dec Selector Header
 - Power and Data Input Headers
 
-We are currently at Revision 2. Changelog is below:
+We are currently at Revision 3. Changelog is below:
+
+**Revision 3 (June 2021)**
+
+ - Replaced PIC16F57 with PIC16F570, cheaper and more powerful.
+ - Removed an external crystal because new PIC now has internal oscillator.
+ - Removed buffer chip disable header, nothing shares ICSP pins now.
+ - Added a bulk capacitor. (Our pony has a bed now!)
+ - Redone the PCB again because new PIC has very different pinout.
 
 **Revision 2 (May 2021)**
  - Added a header to disable the buffer chip, which would then allow the ICSP header to work.
