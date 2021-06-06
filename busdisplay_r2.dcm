@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PIC16F57-ISO
+D PIC16 8-bit MCU
+K MCU
+$ENDCMP
+#
+$CMP SP410401N
+D 0.4" 3 digits red common-anode 7-segment display
+K 7-segment display
+$ENDCMP
+#
+#End Doc Library
