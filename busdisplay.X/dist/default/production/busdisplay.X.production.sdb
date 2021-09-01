@@ -1,0 +1,76 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC12 PICREGULAR PIC12E PIC12IE PIC12COM ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F570 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"32 E:\KMUTT\other\elec\busdisplay_r2\busdisplay.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"275 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f570.h
+[v _PORTA PORTA `VEuc  1 e 1 @6 ]
+"345
+[v _PORTB PORTB `VEuc  1 e 1 @7 ]
+"415
+[v _PORTC PORTC `VEuc  1 e 1 @8 ]
+"819
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @39 ]
+"881
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @40 ]
+"1013
+[v _ANSEL ANSEL `VEuc  1 e 1 @42 ]
+"1311
+[v _OPTION OPTION `VEWuc  1 e 1 @0 ]
+"1315
+[v _TRISA TRISA `VEWuc  1 e 1 @6 ]
+"1319
+[v _TRISB TRISB `VEWuc  1 e 1 @7 ]
+"1323
+[v _TRISC TRISC `VEWuc  1 e 1 @8 ]
+"1529
+[v _RB0 RB0 `VEb  1 e 0 @56 ]
+"1538
+[v _RB3 RB3 `VEb  1 e 0 @59 ]
+"1541
+[v _RB4 RB4 `VEb  1 e 0 @60 ]
+"1544
+[v _RB5 RB5 `VEb  1 e 0 @61 ]
+"30 E:\KMUTT\other\elec\busdisplay_r2\busdisplay.X\main.c
+[v _digits digits `[16]uc  1 e 16 0 ]
+"32
+[v _main main `(i  1 e 2 0 ]
+{
+"34
+[v main@t t `i  1 a 2 10 ]
+"104
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
