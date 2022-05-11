@@ -60,14 +60,14 @@ int main(void) {
             //center
             PORTC = digits[t >> 4];
             RB4 = 0;
-            __delay_ms(5);
+            __delay_ms(3);
             RB4 = 1;
             //__delay_ms(10);
             
             //right
             PORTC = digits[t & 0x0F];
             RB3 = 0;
-            __delay_ms(5);
+            __delay_ms(3);
             RB3 = 1;
             //__delay_ms(10);
         }    
@@ -79,7 +79,7 @@ int main(void) {
             PORTC = digits[t / 100];
             t = t % 100;
             RB5 = 0;
-            __delay_ms(5);
+            __delay_ms(3);
             RB5 = 1;
             //__delay_ms(10);
             
@@ -87,14 +87,14 @@ int main(void) {
             PORTC = digits[t / 10];
             t = t % 10;
             RB4 = 0;
-            __delay_ms(5);
+            __delay_ms(3);
             RB4 = 1;
             //__delay_ms(10);
             
             //right
             PORTC = digits[t];
             RB3 = 0;
-            __delay_ms(5);
+            __delay_ms(3);
             RB3 = 1;
             //__delay_ms(10);
         }
