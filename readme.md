@@ -6,15 +6,23 @@ This is an open-source KiCad design files for a circuit that could be connected 
 
 ![](pics/board.png)
 
-The board is 35x53mm. Featuring:
+The board is 33x50mm (perfect for 3x2 panel). Featuring:
 
-- PIC16F57 Microcontroller + ICSP header + 8MHz crystal
+- PIC16F570 Microcontroller + ICSP header
 - 74HCT245 Transceiver as an input buffer
 - 3-digit 7-segment Display
 - Hex/Dec Selector Header
 - Power and Data Input Headers
 
-We are currently at Revision 2. Changelog is below:
+We are currently at Revision 3. Changelog is below:
+
+**Revision 3 (June 2021)**
+
+ - Replaced PIC16F57 with PIC16F570, cheaper and more powerful.
+ - Removed an external crystal because new PIC now has internal oscillator.
+ - Removed buffer chip disable header, nothing shares ICSP pins now.
+ - Added a bulk capacitor.
+ - Redone the PCB again because new PIC has very different pinout.
 
 **Revision 2 (May 2021)**
  - Added a header to disable the buffer chip, which would then allow the ICSP header to work.
@@ -43,7 +51,6 @@ Unfortunately. I have to excluded the 3D models use to render the board in KiCAD
 
 ## Credits
 
- - SMD 5032 Crystal 2-Pin model by Dirk Wouters: https://grabcad.com/library/smd-5032-crystal-2-pin-1
  - 3-digit LED Display model by Robert Dee: https://grabcad.com/library/3-digit-led-display-1
  - Pin header and Jumpers model by singlefonts: https://grabcad.com/library/pin-header-and-jumper-1
  - SOIC package collection by Egor Chugay: https://grabcad.com/library/soic-package-collection-1/details?folder_id=5653384
