@@ -39,11 +39,13 @@ We are currently at Revision 3. Changelog is below:
 
 The goal of this repository is to enable you to build this on your own as easy as possible (although I originally plan to sell this as a kit as well). **I've included all of the schematics, gerbers, BOMs, and display driver firmware for you to use.** 
 
-Hardware is licensed under `SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1`
+Hardware is licensed under `SPDX-License-Identifier: CERN-OHL-S-2.0`
 
-Software is licensed under `SPDX-License-Identifier: Apache-2.0`
+Software is licensed under `SPDX-License-Identifier: GPL`
 
 Documentation is licensed under `SPDX-License-Identifier: CC-BY-SA-4.0`
+
+**This project is an OSHWA Certified Open Source Hardware Project with UID [TH000009](https://certification.oshwa.org/th000009.html).**
 
 Unfortunately. I have to excluded the 3D models use to render the board in KiCAD because I don't know how each of them was licensed. They are all from GrabCad and you could search and download them by yourself.
 
